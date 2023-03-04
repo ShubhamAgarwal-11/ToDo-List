@@ -2,7 +2,7 @@ const express = require('express');
 const port = 5000;
 const app = express();
 const db = require('./config/mongoose');
-
+const items = require('./model/todo_item');
 
 
 app.listen(port,function(err){
